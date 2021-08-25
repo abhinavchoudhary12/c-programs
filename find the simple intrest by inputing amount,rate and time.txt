@@ -1,0 +1,19 @@
+//find the simple intrest by inputing principle amount, rate of intrest and time period  by abhinav choudhary
+
+#include <stdio.h>
+
+int main()
+{
+    float si,amount,rate,time;
+    
+    printf("enter the principle amount:");
+    scanf("%f",&amount);
+    printf("enter the rate of intrest:");
+    scanf("%f",&rate);
+    printf("enter the time period:");
+    scanf("%f",&time);
+    
+    si=(amount*rate*time)/100;
+    printf("simple intrest is:%f",si);
+    return 0;
+}
