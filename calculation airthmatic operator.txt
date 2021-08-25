@@ -1,0 +1,24 @@
+//calculation of airthmatic operator created by abhinav choudhary
+#include <stdio.h>
+
+int main()
+{
+    int a,b,add,multi,sub,div,mod;
+    printf("enter the first number:");
+    scanf("%d",&a);
+    printf("enter the second number:");
+    scanf("%d",&b);
+    add=a+b;
+    sub=a-b;
+    multi=a*b;
+    div=a/b;
+    mod=a%b;
+    
+    printf("addition is:%d\n",add);
+    printf("subtraction is:%d\n",sub);
+    printf("multiply is:%d\n",multi);
+    printf("division is:%d\n",div);
+    printf("modulous is:%d\n",mod);
+    
+    return 0;
+}
