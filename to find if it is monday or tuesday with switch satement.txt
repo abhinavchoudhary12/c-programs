@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+	
+    int n;
+    scanf("%d", &n);
+    switch(n){
+    case 1 :
+        printf("monday");
+        break;
+        case 2 :
+        printf("tuesday");
+        break;
+        default :
+        printf("not monday nor tuesday");
+      
+    }
+    //Complete the code to calculate the sum of the five digits on n.
+    return 0;
+}
