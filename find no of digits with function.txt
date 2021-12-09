@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+
+{
+    
+    int a,c;
+    int nod(int);
+    printf("enter the no.: ");
+    scanf("%d",&a);
+    c=nod(a);
+    printf("no of digits are:%d",c);
+    return 0;
+}
+
+int nod(int a)
+{
+    int c=0,i;
+    while(a!=0)
+    {
+        a=a/10;
+        c++;
+    }
+    return c;
+}
