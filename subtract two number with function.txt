@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+
+{
+    
+    int a,b,c;
+    int sub(int,int);
+    printf("enter the two no.: ");
+    scanf("%d%d",&a,&b);
+    c=sub(a,b);
+    printf("subtraction is:%d",c);
+    return 0;
+}
+
+int sub(int a,int b)
+{
+    int c;
+    c=a-b;
+    return c;
+}
