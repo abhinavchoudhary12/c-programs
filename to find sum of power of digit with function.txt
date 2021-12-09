@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+
+{
+    
+    
+    int a,b,pwr;
+    int power(int,int);
+    printf("enter the base no.: "); // to find the power
+    scanf("%d",&a);
+    printf("enter the power of the base: ");
+    scanf("%d",&b);
+    
+    pwr=power(a,b);
+    printf("%d",pwr);
+    return 0;
+}
+
+int power(int a,int b)
+{
+    int i,c=1;
+    for(i=0;i<b;i++)
+    {
+       c = c*a;
+        
+    }
+    
+    return c;
+    
+}
