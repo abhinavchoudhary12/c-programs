@@ -1,0 +1,41 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include<string.h>
+struct s1{
+    char name[10];
+    char country[10];
+};
+
+int main()
+{
+    int i;
+    char count[10];
+    struct s1 s[6];
+    for(i=0;i<6;i++)
+    {
+        printf("enter the name of the player\n");
+        scanf("%s",&s[i].name);
+        printf("\n enter the name of the country\n");
+        scanf("%s",&s[i].country);
+        
+    }
+    printf("enter the country name ");
+    scanf("%s",&count);
+    printf("----country------players------\n");
+    for(i=0;i<6;i++)
+    {
+        if(strcmp(count,s[i].country)==0)
+        {
+            printf("----%s------%s-------\n",s[i].country,s[i].name);
+        }
+    }
+
+    return 0;
+}
